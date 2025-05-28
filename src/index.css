@@ -83,7 +83,7 @@
 body {
   transition: all 0.2s ease-in-out;
   font-family:'Inter', sans-serif;
-  
+  background: var(--background);
   font-size: 18px;
   
 }
@@ -91,10 +91,7 @@ body {
   background: var(--lightbg);
 }
 
-.dark {
-  background: var(--background);
-  color: white
-}
+
 
 @theme {  
   --font-inter: "Inter", "sans-serif";

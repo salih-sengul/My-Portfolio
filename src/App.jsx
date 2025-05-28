@@ -14,9 +14,9 @@ function App () {
 
   useEffect(() => {
     if (darkMode) {
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.add('dark-mode')
     } else {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove('dark-mode')
     }
 
       

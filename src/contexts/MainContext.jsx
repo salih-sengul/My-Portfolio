@@ -12,11 +12,9 @@ export const MainContextProvider = ({ children }) => {
         
     
     if(!darkMode){
-      document.documentElement.classList.add("dark")
       document.documentElement.classList.add("dark-mode")
       setdarkMode(!darkMode)
     }else{
-      document.documentElement.classList.remove("dark")
       document.documentElement.classList.remove("dark-mode")
       setdarkMode(!darkMode)
     }
