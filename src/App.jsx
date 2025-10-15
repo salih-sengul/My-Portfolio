@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[1141px] mx-auto flex flex-col justify-center mt-6 max-xl:px-10 min-w-[400px]">
+      <div className="mx-auto mt-6 flex max-w-[1141px] min-w-[400px] flex-col justify-center max-xl:px-10">
         <ModeSwitch />
         <Header />
         <Hero />
