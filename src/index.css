@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -17,86 +17,78 @@
   --bgColor--night: #000000;
   --mooncolor: #ffe86e;
 
-  
-
   --background: white;
 
-  --logo: #7B61FF;
-  --logo-background: #EEEBFF;
+  --logo: #7b61ff;
+  --logo-background: #eeebff;
 
-  --button-mode: #4731D3;
+  --button-mode: #4731d3;
 
   --button: var(--color-indigo-800);
   --button-hero-bg-hire: var(--color-indigo-800);
   --button-hero-hire-text: white;
   --button-hero-bg-others: white;
-  --button-hero-others-text: #3730A3;
-  --button-porject: #3730A3;
-
+  --button-hero-others-text: #3730a3;
+  --button-porject: #3730a3;
 
   --heding-medium: var(--color-indigo-700);
   --heading-large: var(--color-gray-800);
 
   --text: var(--color-gray-500);
   --text-mode: #777777;
-  --text-lang: #4731D3;
+  --text-lang: #4731d3;
   --profile: black;
 
-  --email: #AF0C48;
+  --email: #af0c48;
   --blog: black;
-  --github: #00AB6B;
-  --linkedin: #0077B5;
+  --github: #00ab6b;
+  --linkedin: #0077b5;
 
-  --footer-bg: #F9F9F9;
+  --footer-bg: #f9f9f9;
 }
-.dark-mode{
-
+.dark-mode {
   --background: #252128;
 
-  --logo: #BAB2E7;
-  --logo-background: #4731D3;
+  --logo: #bab2e7;
+  --logo-background: #4731d3;
 
-  --button-mode: #3A3A3A;
+  --button-mode: #3a3a3a;
   --button: var(--color-indigo-800);
-  --button-hero-bg-hire: #E1E1FF;
+  --button-hero-bg-hire: #e1e1ff;
   --button-hero-hire-text: black;
   --button-hero-bg-others: #383838;
-  --button-hero-others-text: #BAB2E7;
-  --button-porject: #8F88FF;
+  --button-hero-others-text: #bab2e7;
+  --button-porject: #8f88ff;
 
-  --heding-medium: #B7AAFF;
-  --heading-large: #AEBCCF;
+  --heding-medium: #b7aaff;
+  --heading-large: #aebccf;
 
   --text: white;
-  --text-mode: #D9D9D9;
-  --text-lang: #BAB2E7;
+  --text-mode: #d9d9d9;
+  --text-lang: #bab2e7;
   --profile: white;
 
-  --email: #BAB2E7;
-  --blog: #E1E1FF;
-  --github: #17D18B;
-  --linkedin: #0BA6F6;
+  --email: #bab2e7;
+  --blog: #e1e1ff;
+  --github: #17d18b;
+  --linkedin: #0ba6f6;
 
   --footer-bg: #141414;
 }
 
 body {
-  transition: all 0.2s ease-in-out;
-  font-family:'Inter', sans-serif;
+  /* transition: all 0.2s ease-in-out; */
+  font-family: "Inter", sans-serif;
   background: var(--background);
   font-size: 18px;
-  
 }
 .light {
   background: var(--lightbg);
 }
 
-
-
-@theme {  
+@theme {
   --font-inter: "Inter", "sans-serif";
 
-  
   --color-background: var(--background);
 
   --color-logo: var(--logo);
@@ -109,10 +101,6 @@ body {
   --color-button-hero-bg-others: var(--button-hero-bg-others);
   --color-button-hero-others-text: var(--button-hero-others-text);
   --color-button-porject: var(--button-porject);
-
- 
-  
-
 
   --color-heding-medium: var(--heding-medium);
   --color-heading-large: var(--heading-large);
@@ -128,29 +116,25 @@ body {
   --color-linkedin: var(--linkedin);
 
   --color-footer-bg: var(--footer-bg);
-
-  
-
-
 }
 
-@layer base{
-  p{
-    color: var(--text)
+@layer base {
+  p {
+    color: var(--text);
   }
 
-  h1{
+  h1 {
     color: var(--heading-large);
   }
-  h2{
+  h2 {
     color: var(--heading-large);
   }
 
-  h3{
+  h3 {
     color: var(--heding-medium);
   }
 
-  hr{
+  hr {
     color: var(--heding-medium);
   }
 }
